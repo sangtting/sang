@@ -9,22 +9,25 @@
 		Header style sheet
 ************************************/
 header {
-			background-image:url("http://localhost:9000/mycgv/images/bg_header.gif");
+			background-image:url("http://localhost:9000/sang/images/bg_header.gif");
 			height:149px;
 }
 .header_menu {
 	border:1px solid red;
-	width:1000px;
+	width:1000px; height:300px;
 	margin:auto;
+}
+.header_menu nav, .header_menu ul {
+	border:2px solid blue;
 }
 
 /***********************************
 		Index-Content style sheet
 ************************************/
 .section1, .section2, .section3 {
-			background-image:url("http://localhost:9000/mycgv/images/carousel_bg.png");
+			background-image:url("http://localhost:9000/sang/images/carousel_bg.png");
 }
-.section1_d1 {
+.section1_d1, .section2, .section3 {
 	width:1000px; margin:auto;
 	border:1px solid blue;
 }
