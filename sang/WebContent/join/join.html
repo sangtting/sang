@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>MYCGV</title>
+<link rel="stylesheet" href="http://localhost:9000/sang/css/sang.css">
 </head>
 <body>
 	<!-- header -->
@@ -12,7 +13,7 @@
 	<!-- content -->
 	<div class="content">
 		<section class="join">
-			<h1>회원가입</h1>
+			<h1 calss="title">회원가입</h1>
 			<form name="joinForm" action="#" method="get">
 				<ul>
 					<li>
@@ -22,20 +23,20 @@
 					</li>
 					<li>
 						<label>비밀번호</label>
-						<input type="password" name="pass">
+						<input type="password" name="pass" class="input1">
 					</li>
 					<li>
 						<label>비밀번호 확인</label>
-						<input type="password" name="cpass">
+						<input type="password" name="cpass" class="input1">
 					</li>
 					<li>
 						<label>성명</label>
-						<input type="text" name="name">
+						<input type="text" name="name" class="input1">
 					</li>
 					<li>
 						<label>성별</label>
-						<input type="radio" name="gender"> 남자
-						<input type="radio" name="gender"> 여자
+						<input type="radio" name="gender"><span>남자</span>
+						<input type="radio" name="gender"><span>여자</span>
 					</li>
 					<li>
 						<label>이메일</label>
@@ -51,18 +52,18 @@
 					</li>
 					<li>
 						<label>주소</label>
-						<input type="text" name="addr1">
+						<input type="text" name="addr1" class="input1">
 						<button type="button">주소찾기</button>
 					</li>
 					<li>
 						<label>상세주소</label>
-						<input type="text" name="addr2">
+						<input type="text" name="addr2" class="input1">
 					</li>
 					<li>
 						<label>휴대폰</label>
-						<input type="radio" name="tel" value="skt">SKT
-						<input type="radio" name="tel" value="lgu+">LGU+
-						<input type="radio" name="tel" value="kt">KT
+						<input type="radio" name="tel" value="skt"><span>SKT</span>
+						<input type="radio" name="tel" value="lgu+"><span>LGU+</span>
+						<input type="radio" name="tel" value="kt"><span>KT</span>
 						<select name="phone1">
 							<option value="default">선택</option>
 							<option value="011">011</option>
@@ -74,14 +75,14 @@
 					</li>
 					<li>
 						<label>취미</label>
-						<input type="checkbox" name="hobby" value="영화보기"> 영화보기
-						<input type="checkbox" name="hobby" value="등산하기"> 등산하기
-						<input type="checkbox" name="hobby" value="게임하기"> 게임하기
-						<input type="checkbox" name="hobby" value="잠자기"> 잠자기
+						<input type="checkbox" name="hobby" value="영화보기"><span>영화보기</span>
+						<input type="checkbox" name="hobby" value="등산하기"><span>등산하기</span>
+						<input type="checkbox" name="hobby" value="게임하기"><span>게임하기</span>
+						<input type="checkbox" name="hobby" value="잠자기"><span>잠자기</span>
 					</li>
 					<li>
 						<label>자기소개</label>
-						<textarea rows="5" cols="50" name="intro" placeholder="*200자 이내로 작성해주세요"></textarea>
+						<textarea  name="intro" placeholder="*200자 이내로 작성해주세요"></textarea>
 					</li>
 					<li>
 						<button type="button">가입하기</button>
